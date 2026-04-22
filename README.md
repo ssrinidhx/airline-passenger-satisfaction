@@ -6,14 +6,14 @@ This project presents a **Business Intelligence (BI) dashboard built using Micro
 
 The dashboard helps identify factors affecting passenger satisfaction such as **flight delays, service quality, travel class, and customer loyalty**.
 
-# Dataset
+## Dataset
 
-**Dataset:** [Airline Passenger Satisfaction Dataset](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
-**Source:** Kaggle
-**Records:** ~25,977 passengers
-**Features:** Passenger demographics, travel details, service ratings, and delay information.
+* **Dataset:** [Airline Passenger Satisfaction Dataset](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
+* **Source:** Kaggle
+* **Records:** ~25,977 passengers
+* **Features:** Passenger demographics, travel details, service ratings, and delay information.
 
-# Tools & Technologies Used
+## Tools & Technologies Used
 
 * **Microsoft Power BI**
 * **Python (Power BI Python visuals)**
@@ -23,7 +23,7 @@ The dashboard helps identify factors affecting passenger satisfaction such as **
   * Logistic Regression
   * Linear Regression
 
-# Data Model (Star Schema)
+## Data Model (Star Schema)
 
 The project implements a **data warehouse star schema** consisting of one fact table and multiple dimension tables.
 
@@ -61,9 +61,9 @@ The project implements a **data warehouse star schema** consisting of one fact t
 
 This structure enables **efficient multidimensional analysis using OLAP operations**.
 
-# Dashboard Pages Overview
+## Dashboard Pages Overview
 
-## 1. Executive Dashboard
+### 1. Executive Dashboard
 
 The executive dashboard provides a **high-level overview of airline passenger statistics**.
 
@@ -76,7 +76,7 @@ Key metrics displayed include:
 
 It also highlights passenger distribution across travel classes and includes alert indicators for **delay control and service quality monitoring**. 
 
-## 2. Passenger Demographics Analysis
+### 2. Passenger Demographics Analysis
 
 This page analyzes **passenger characteristics and demographic patterns**.
 
@@ -89,7 +89,7 @@ Visual insights include:
 
 These insights help understand **customer profiles and satisfaction trends**. 
 
-## 3. Travel & Flight Analysis
+### 3. Travel & Flight Analysis
 
 This dashboard explores **travel patterns and operational metrics**.
 
@@ -103,7 +103,7 @@ Key analyses include:
 
 These insights help evaluate **flight operations and passenger travel behavior**. 
 
-## 4. Service Quality Analysis
+### 4. Service Quality Analysis
 
 This page evaluates **airline service performance and customer experience**.
 
@@ -115,7 +115,7 @@ It analyzes passenger ratings for:
 
 The dashboard also shows how service ratings impact passenger satisfaction, helping identify **areas where airlines can improve service quality**. 
 
-## 5. Customer Satisfaction Analysis
+### 5. Customer Satisfaction Analysis
 
 This page focuses on identifying **factors influencing passenger satisfaction**.
 
@@ -129,25 +129,25 @@ Key insights include:
 
 The analysis highlights that **service quality and delays significantly affect passenger satisfaction levels**. 
 
-## 6. Predictive & Data Mining Analysis
+### 6. Predictive & Data Mining Analysis
 
 This page applies **machine learning techniques** to analyze passenger behavior.
 
-### K-Means Clustering
+**K-Means Clustering**
 
 - Passengers are grouped into clusters based on travel behavior such as **flight distance and arrival delay**, helping identify different passenger segments.
 
-### Logistic Regression (Classification)
+**Logistic Regression (Classification)**
 
 - Logistic regression predicts whether a passenger is **satisfied or dissatisfied** using service features such as seat comfort, cleanliness, wifi service, and delay metrics.
 
-### Linear Regression
+**Linear Regression**
 
 - Linear regression analyzes the relationship between **flight distance and arrival delay**. The results indicate a **weak correlation**, suggesting delays are influenced more by operational factors.
 
 Key insights from the predictive models are summarized directly in the dashboard. 
 
-## 7. OLAP Analysis
+### 7. OLAP Analysis
 
 This page demonstrates **Online Analytical Processing (OLAP) operations** for multidimensional data analysis.
 
@@ -161,7 +161,7 @@ Implemented OLAP operations include:
 
 These operations enable **interactive exploration of passenger data across multiple dimensions**. 
 
-# Key Insights
+## Key Insights
 
 * Passenger satisfaction is strongly influenced by **service quality and travel class**.
 * **Business class passengers show higher satisfaction levels** compared to economy passengers.
@@ -169,7 +169,7 @@ These operations enable **interactive exploration of passenger data across multi
 * Clustering reveals distinct passenger travel behavior groups.
 * Regression analysis shows that **flight distance has minimal impact on arrival delays**.
 
-# Conclusion
+## Conclusion
 
 This project demonstrates how **Business Intelligence tools such as Power BI can transform raw airline data into meaningful insights**. By integrating **data warehousing, OLAP analysis, and machine learning techniques**, the dashboard provides valuable insights into passenger behavior, service quality, and operational performance.
 
